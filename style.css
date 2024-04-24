@@ -1,0 +1,119 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* header */
+header{
+	height: 860px;
+	background-image: url(./Assets/header-background.png);
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	margin: 0 150px;
+}
+/* Navigation Bar */
+nav {
+	display: flex;
+	justify-content: space-around;
+	width: 1320px;
+	height: 88px;
+	align-items: center;
+}
+
+.left-card{
+	display: flex;
+	justify-content: space-evenly;
+	gap: 20px;
+}
+
+.right-card{
+	display: flex;
+	justify-content: space-evenly;
+	gap: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #05073C;
+}
+
+/* Hero Section */
+.hero{
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	margin: 0 150px;
+}
+.hero-images{
+	display: flex;
+	justify-content: space-around;
+}
+
+
+/* Tour */
+.tour{
+	height: 296.38px;
+	display: flex;
+	flex-direction: column;
+	margin: 0 150px;
+}
+.tour-card{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+
+/* Feature Trip */
+.featured-trips{
+	height: 1169.19px;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	margin: 0 150px;
+}
+.trips-row{
+	display: flex;
+	justify-content: space-evenly;
+	
+}
+
+
+/* Destinations */
+.destinations{
+	height: 730px;
+	background-color: #05073C;
+}
+.destinations h3 {
+	color: #fff;
+}
+.destination-image{
+	height: 400px;
+}
+
+
+/* Customer Reviews */
+.customer-reviews{
+	height: 760.39px;
+}
+
+
+/* Travel Articles */
+.travel-articles{
+	height: 529.98px;
+}
+
+
+/* Booking */
+.booking{
+	height: 514px;
+	background-image: url(./Assets/booking-background-image.png);
+}
+
+
+/* footer */
+footer{
+	background-color: #05073C;
+	height: 725.25px;
+}
