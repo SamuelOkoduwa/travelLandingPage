@@ -48,7 +48,7 @@ a {
 }
 .hero-images{
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 
