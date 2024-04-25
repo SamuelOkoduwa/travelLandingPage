@@ -5,6 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Home-4</title>
 	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,200;1,400;1,600&family=Source+Sans+3&display=swap" rel="stylesheet">
 </head>
 <body>
 	<header>
@@ -12,8 +15,8 @@
 		<nav>
 			<!-- left card -->
 			<div class="left-card">
-			<span id="logo"><img src="" alt="viatours"></span>
-			<span><a href="./index.html">Home</a></span>
+			<span id="logo"><img src="./Assets/logo.png" alt="viatours"></span>
+			<span class="home"><a href="./index.html">Home</a></span>
 			<span><a href="#">Tour</a></span>
 			<span><a href="#">Destination</a></span>
 			<span><a href="#">Activities</a></span>
@@ -25,9 +28,13 @@
 			<span><a href="#">USD</a></span>
 			<span><a href="#">Help</a></span>
 			<span><a href="#">Sign Up</a></span>
-			<span><a href="#">Login</a></span>
+			<span class="login"><a href="#">Login</a></span>
 			</div>
 			</nav>
+			
+			<div id="adventure">
+				<img src="./Assets/Adventure.png" alt="Adventure">
+			</div>
 	</header>
 
 	<!-- The main Content -->
@@ -48,38 +55,201 @@
 <!-- Reasons for Tour Section -->
 <section class="tour">
 <h3>Why choose Tourz</h3>
-<div class="tour-card">
-	<div class="tour-card">Ultimate flexibility</div>
-	<div class="tour-card">Memmorable Experiences</div>
-	<div class="tour-card">Quality of our core</div>
-	<div class="tour-card">Award Winning Support</div>		
+<div id="tour-card">
+	<div class="tour-card">
+		<img src="./Assets/Ultimate.png" alt="Ultimate flexibility">
+		<span class="tour-heading">Ultimate flexibility</span>
+		<span class="tour-content">You're in control, width free <br>
+			cancellation and payment options to <br>
+			satisfy any plan or budget
+		</span>
+	</div>
+
+	<div class="tour-card">
+		<img src="./Assets/Memorable.png" alt="Memmorable Experiences">
+		<span class="tour-heading">Memmorable Experiences</span>
+		<span class="tour-content">You're in control, width free <br>
+			cancellation and payment options to <br>
+			satisfy any plan or budget
+		</span>	
+	</div>
+
+	<div class="tour-card">
+		<img src="./Assets/Quality.png" alt="Quality of core">
+		<span class="tour-heading">Quality of our core</span>
+		<span class="tour-content">You're in control, width free <br>
+			cancellation and payment options to <br>
+			satisfy any plan or budget
+		</span>
+		
+	</div>
+	<div class="tour-card">
+		<img src="./Assets/Award.png" alt="Award Winning Support">
+		<span class="tour-heading">Award Winning Support</span>
+		<span class="tour-content">You're in control, width free <br>
+			cancellation and payment options to <br>
+			satisfy any plan or budget
+		</span>	
+	</div>		
 </div>
 </section>
 
 <!-- Featured Trips -->
 <section class="featured-trips">
-<h3>Featured Trips</h3>
-<div class="trips-row">
-	<span class="card-trip">Centipede Tour...</span>
-	<span class="card-trip">Molokini and Turtle...</span>
-	<span class="card-trip">Westminister Waking Tour...</span>
-	<span class="card-trip">All Inclusive Ultimate...</span>
+<div class="featured-trips-header">
+	<h3>Featured Trips</h3>
+	<span><a href="#">See all</a></span>
 </div>
 
-<div class="trips-row">
-	<span class="card-trip">Space Center</span>
-	<span class="card-trip">Clear Kayak</span>
-	<span class="card-trip">History and Hauntings</span>
-	<span class="card-trip">Mouka</span>
+<div class="trips">
+	<div class="trips-row">
+		<span class="card-trip">
+			<img src="./Assets/Featured_Trips/Centepede.png" alt="Centepede">
+			<span class="country">Paris, France</span>
+			<span class="trip-header">Centipede Tour -Guided Anzona <br>
+				Desert Tour by ATV
+			</span>
+			<span class="trip-serialNo">
+				4812430
+			</span>
+			<hr>
+			<div class="day-amount">
+				<span>4 days</span>
+				<span>From $100.25</span>
+			</div>
+		</span>
+	
+		<span class="card-trip">
+			<img src="./Assets/Featured_Trips/Molokini.png" alt="Molokini">
+			<span class="country">Paris, France</span>
+			<span class="trip-header">Molokini and Turtle Town <br>
+				Smorking Adventure Abroad
+			</span>
+			<span class="trip-serialNo">
+				4812430
+			</span>
+			<hr>
+			<div class="day-amount">
+				<span>4 days</span>
+				<span>From $225</span>
+			</div>		
+		</span>
+	
+		<span class="card-trip">
+			<img src="./Assets/Featured_Trips/Westminister.png" alt="Westminister">
+			<span class="country">London, UK</span>
+			<span class="trip-header">Westminister Waking Tour $ <br>
+				Westminister Abbey Entry
+			</span>
+			<span class="trip-serialNo">
+				4812430
+			</span>
+			<hr>
+			<div class="day-amount">
+				<span>4 days</span>
+				<span>From $943</span>
+			</div>
+		</span>
+	
+		<span class="card-trip">
+			<img src="./Assets/Featured_Trips/All_inclusive.png" alt="All inclusive">
+			<span class="country">New York, USA</span>
+			<span class="trip-header">All Inclusive Ultimate Circle Island <br>
+				Day Tour with Lunch
+			</span>
+			<span class="trip-serialNo">
+				4812430
+			</span>
+			<hr>
+			<div class="day-amount">
+				<span>4 days</span>
+				<span>From $771</span>
+			</div>
+		</span>
+	</div>
+	
+	<div class="trips-row">
+		<span class="card-trip">
+			<img src="./Assets/Featured_Trips/Space_center.png" alt="Space Center">
+			<span class="country">Paris, France</span>
+			<span class="trip-header">Space center and Houstn Admission <br>
+				Ticket
+			</span>
+			<span class="trip-serialNo">
+				4812430
+			</span>
+			<hr>
+			<div class="day-amount">
+				<span>4 days</span>
+				<span>From $189.25</span>
+			</div>
+		</span>
+	
+		<span class="card-trip">
+			<img src="./Assets/Featured_Trips/Clear_Kayak.png" alt="Clear Kayak Tour">
+			<span class="country">New York, USA</span>
+			<span class="trip-header">Clear Tour of Shell Key <br>
+				Preserve and Tampa Bay Area
+			</span>
+			<span class="trip-serialNo">
+				4812430
+			</span>
+			<hr>
+			<div class="day-amount">
+				<span>4 days</span>
+				<span>From $225</span>
+			</div>
+		</span>
+	
+		<span class="card-trip">
+			<img src="./Assets/Featured_Trips/History.png" alt="History and Hautings">
+			<span class="country">London UK</span>
+			<span class="trip-header">History and Haunting of Salem <br>
+				Guided Walking tour
+			</span>
+			<span class="trip-serialNo">
+				4812430
+			</span>
+			<hr>
+			<div class="day-amount">
+				<span>4 days</span>
+				<span>From $943</span>
+			</div>
+		</span>
+	
+		<span class="card-trip">
+			<img src="./Assets/Featured_Trips/Molokini.png" alt="Mauna">
+			<span class="country">New York, USA</span>
+			<span class="trip-header">Mauna Kea Summit Sunset and <br>
+				Astro Photos Hbo Koma <br>
+				Walkoloa Pick Up
+			</span>
+			<span class="trip-serialNo">
+				4812430
+			</span>
+			<hr>
+			<div class="day-amount">
+				<span>4 days</span>
+				<span>From $221</span>
+			</div>
+		</span>
+	</div>
+	
 </div>
 </section>
 
 
 <!-- Destination -->
 <section class="destinations">
-<h3>Tending Destinations</h3>
+<div class="destinations-header">
+	<h3>Tending Destinations</h3>
+	<span><a href="#">See all</a></span>
+</div>
 <div class="destination-image">
-	<img src="" alt="Bell">
+	<img src="./Assets/Bell.png" alt="Bell">
+	<img src="./Assets/Bell.png" alt="Bell">
+	<img src="./Assets/Bell.png" alt="Bell">
+	<img src="./Assets/Bell.png" alt="Bell">
 </div>
 </section>
 
@@ -87,16 +257,16 @@
 <!-- Customer Reviews -->
 <section class="customer-reviews">
 <h3>Customer Reviews</h3>
-<img src="" alt="icon">
-<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum temporibus quibusdam praesentium sunt deleniti ex ea sequi. Quisquam, recusandae minima.</p>
+<img src="./Assets/customer-review/customer-review-icon.png" alt="icon">
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> 
+	Harum temporibus quibusdam praesentium sunt deleniti ex ea <br> sequi. Quisquam, recusandae minima.</p>
 <h6>All Tutor...</h6>
 <div class="image-rep">
-	<img src="" alt="1">
-	<img src="" alt="2">
-	<img src="" alt="3">
-	<img src="" alt="4">
-	<img src="" alt="5">
-	<img src="" alt="6">
+	<img src="./Assets/customer-review/customer-one.png" alt="1">
+	<img src="./Assets/customer-review/customer-two.png" alt="2">
+	<img src="./Assets/customer-review/customer-five.png" alt="3">
+	<img src="./Assets/customer-review/customer-four.png" alt="4">
+	<img src="./Assets/customer-review/customer-five.png" alt="5">
 </div>
 </section>
 

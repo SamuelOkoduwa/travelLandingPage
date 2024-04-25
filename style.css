@@ -2,6 +2,7 @@ body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: "Inter", sans-serif;
 }
 
 /* header */
@@ -10,8 +11,10 @@ header{
 	background-image: url(./Assets/header-background.png);
 	background-repeat: no-repeat;
 	display: flex;
-	justify-content: center;
 	margin: 0 150px;
+	flex-direction: column;
+	align-items: center;
+	
 }
 /* Navigation Bar */
 nav {
@@ -31,14 +34,31 @@ nav {
 .right-card{
 	display: flex;
 	justify-content: space-evenly;
+	align-items: center;
 	gap: 20px;
+}
+
+.login {
+	border: 1px solid #717171;
+	border-radius: 15px;
+	padding: 5px;
+}
+.home a{
+	color: #EB662B;
+	
 }
 
 a {
 	text-decoration: none;
 	color: #05073C;
 }
+#adventure {
+	margin-top: 100px;
+}
 
+section{
+	margin-top: 100px;
+}
 /* Hero Section */
 .hero{
 	height: 600px;
@@ -57,26 +77,93 @@ a {
 	height: 296.38px;
 	display: flex;
 	flex-direction: column;
-	margin: 0 150px;
+	margin: 50px 150px;
 }
-.tour-card{
+#tour-card{
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-around;
+	gap: 30px;
+}
+.tour-card {
+	display: flex;
+	flex-direction: column;
+}
+.tour-card img {
+	width: 60px;
+	height: 60px;
+}
+.tour-heading{
+	font-weight: bolder;
+	margin-top: 20px;
+	font-size: large;
+}
+.tour-content{
+	font-weight: lighter;
+	font-size: larger;
 }
 
 
 /* Feature Trip */
 .featured-trips{
-	height: 1169.19px;
+	/* height: 1169.19px; */
 	display: flex;
 	flex-direction: column;
 	gap: 40px;
 	margin: 0 150px;
 }
+.featured-trips-header{
+	color: #05073C;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.featured-trips-header span a{
+	font-weight: bolder;
+	font-size: x-small;
+}
+.trips {
+	display: flex;
+	flex-direction: column;
+	gap: 100px;
+}
 .trips-row{
 	display: flex;
 	justify-content: space-evenly;
-	
+	gap: 20px;	
+}
+.card-trip{
+	display: flex;
+	flex-direction: column;
+}
+.card-trip img {
+	width: 200px;
+	height: 160px;
+	border-radius: 10px;
+}
+.country {
+	font-weight: lighter;
+	margin: 5px 0 10px 30px;
+	color: #717171;
+}
+.trip-header{
+	font-weight: bolder;
+	color: #05073C;
+}
+
+.trip-serialNo{
+	text-align: center;
+	color: #05073C;
+	margin-top: 10px;
+}
+hr {
+	color: #717171;
+}
+.day-amount{
+	display: flex;
+	justify-content: space-between;
+	font-weight: bolder;
+	color: #05073C;
 }
 
 
@@ -85,19 +172,46 @@ a {
 	height: 730px;
 	background-color: #05073C;
 }
-.destinations h3 {
+
+.destinations-header{
+	display: flex;
 	color: #fff;
+	margin: 50px 150px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 100px;
+}
+.destinations-header span a {
+	color: #fff;
+	font-size: smaller;
+	font-weight: lighter;
 }
 .destination-image{
 	height: 400px;
+	display: flex;
+	justify-content: space-around;
+	margin: auto 150px;
+	align-items: center;
+}
+.destination-image img {
+	height: 300px;
+	border-radius: 10px;
 }
 
 
 /* Customer Reviews */
 .customer-reviews{
-	height: 760.39px;
-}
 
+	text-align: center;
+}
+.customer-reviews p {
+	margin-bottom: 50px;
+}
+.image-rep{
+	display: flex;
+	justify-content: center;
+}
 
 /* Travel Articles */
 .travel-articles{
