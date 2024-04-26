@@ -64,13 +64,63 @@ section{
 	height: 600px;
 	display: flex;
 	flex-direction: column;
-	margin: 0 150px;
+	margin: 100px 150px 0 150px;
+}
+.hero-header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.hero-header-h3{
+	color: #05073C;
+}
+.hero-header-see{
+	color: #05073C;
+	font-size: smaller;
 }
 .hero-images{
 	display: flex;
 	justify-content: space-between;
+	
+}
+.hero-images-cruise{
+	border: 1px solid #717171;
+	border-radius: 5px;
+}
+.hero-images-cruise img {
+	width: 250px;
 }
 
+.hero-images-beach{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border: 1px solid #717171;
+	border-radius: 5px;
+}
+.hero-images-beach img {
+	width: 250px;
+}
+.hero-images-city {
+	display: flex;
+	flex-direction: column;	
+	border: 1px solid #717171;
+	justify-content: space-between;
+	border-radius: 5px;
+
+}
+.hero-images-city img {
+	width: 200px;
+}
+/* .city{
+	border: 1px solid;
+	background-size: cover;
+} */
+.hero-images-food{
+	display: flex;
+	justify-content: space-between;
+	/* border: 1px solid; */
+}
 
 /* Tour */
 .tour{
