@@ -1,6 +1,7 @@
 #	Travel Landing Page
 Welcome to our Travel Landing Page! This README provides an overview of the different sections and features available on our platform.
 
+****
 ##	Sections
 **Museum Tours**
 Discover the rich history and cultural heritage of various destinations through our curated museum tours. Explore ancient artifacts, art masterpieces, and immersive exhibitions.
@@ -26,6 +27,7 @@ Stay updated with the latest trending destinations. From emerging hotspots to ti
 **Customer Reviews**
 Read what our customers have to say about their travel experiences. Gain insights, recommendations, and firsthand accounts to help plan your next adventure.
 
+****
 **Technologies Used**
 -	HTML5
 -	CSS3
